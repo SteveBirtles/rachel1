@@ -10,6 +10,8 @@ public class ServerStart {
 
     public static void main(String[] args) {
 
+        //Silly change
+
         DatabaseConnection.open("MessageBoard.db");
 
         ResourceConfig config = new ResourceConfig();
